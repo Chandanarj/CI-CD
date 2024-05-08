@@ -44,7 +44,6 @@
     <!-- Plugin Management and other configurations -->
 </build>
 
-
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
