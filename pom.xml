@@ -31,13 +31,19 @@
 
   <build>
     <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
-        </configuration>
-      </plugin>
+        <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version> <!-- Use a newer version of the plugin -->
+            <configuration>
+                <source>1.8</source> <!-- Update source to 1.8 or later -->
+                <target>1.8</target> <!-- Update target to 1.8 or later -->
+            </configuration>
+        </plugin>
+        <!-- Other plugins -->
+    </plugins>
+    <!-- Plugin Management and other configurations -->
+</build>
+
 
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
